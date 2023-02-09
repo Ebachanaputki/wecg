@@ -15,7 +15,7 @@ namespace ConsoleApp15
             double dolar = double.Parse(Console.ReadLine());
             double msz = dnmes * prden;
             double gdo = (msz * 12) + (msz * 2.5);
-            double dn = gdo %= 25;
+            double dn = gdo / 4;
             double cdn = gdo - dolar;
             double dnsr  = cdn / 365 ;
             Console.WriteLine(dnsr);
